@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<!-- The HEAD -->
+<head>
+  <title>AVEN</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Basic Style -->
+  <style>
+    html,
+    body {
+      background-color: #555;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #canvas {
+      background-color: #088;
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+  </style>
+  <!-- Libraries -->
+  <script src="web-gl-obj-loader-min.js"></script>
+</head>
+
+<!-- The Body -->
+<body>
+  <!-- Canvas -->
+  <canvas id="canvas"></canvas>
+  <!-- AVEN Code -->
+  <script src="aven_mathgl.js"></script>
+  <script src="aven_gl2.js"></script>
+  <script src="aven_render.js"></script>
+  <script src="aven_ctrl.js"></script>
+  <script src="aven_world.js"></script>
+  <script src="aven_loop.js"></script>
+</body>
+<!-- EOF -->
+
+</html>
